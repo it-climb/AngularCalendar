@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Find 5 Sundays</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+<body>
+        <div ng-controller="findSundays">
+            first month<input ng-model="first" type="month"> second month<input type="month" ng-model="second"> <button ng-click="click()">Click</button>
+
+            <p>{{result}}</p>
+        </div>
+
+        <script src="app.js"></script>
+</body>
+</html>
